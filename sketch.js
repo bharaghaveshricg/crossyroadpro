@@ -21,7 +21,7 @@ function setup() {
       var road= createSprite(683,height-150-(i*400)-grassHeight,width,300,)
       road.shapeColor="black";
     }
-    bottomGrass1.shapeColor="grey";
+    bottomGrass1.shapeColor="green";
   }
   for(var i = 0; i<40; i++){
     cars = new Car(2);
